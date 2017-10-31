@@ -11,8 +11,8 @@ for i in range(1,350):
 		current_word = current_word_element.get_attribute("innerHTML")
 		input_element.send_keys(current_word + " ")
 		#driver.implicitly_wait(10)
-	except:
-		break
+	except
+	break
 
 
 
